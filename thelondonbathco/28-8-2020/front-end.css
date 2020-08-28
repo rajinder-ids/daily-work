@@ -1,0 +1,44 @@
+.range-tile-content.span-12 {
+  padding-top: 40px;
+}
+.range-tile-item {
+  position: relative;
+  padding-bottom: 40px !important;
+}
+.range-tile-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff !important;
+}
+h5.no-tiles {
+  align-items: center;
+  padding: 50px;
+}
+
+/*our-servicespage css*/
+.range-tile-item {
+  background: url(https://dev.thelondonbathco.co.uk/wp-content/uploads/2020/08/sunset-5475045_1920-1.jpg);
+  height: 284px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  width: calc(50% - 40px);
+  background-position: center center;
+}
+
+@media screen and (max-width: 767px){
+.range-tile-item {
+    height: 284px;
+    margin:0px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 379px){
+.range-tile-item {
+    height: 200px;
+  }
+}

@@ -1,0 +1,18 @@
+.range-tile-content.span-12 {
+  padding-top: 40px;
+}
+.range-tile-item {
+  position: relative;
+  padding-bottom: 40px !important;
+}
+.range-tile-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff !important;
+}
+h5.no-tiles {
+  align-items: center;
+  padding: 50px;
+}
